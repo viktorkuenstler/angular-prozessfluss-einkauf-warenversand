@@ -23,3 +23,20 @@
   text-align: center;
   font: 32px Arial, sans-serif;
 }
+
+.divided {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
+  margin: 5px;
+}
+
+.myItemContainer {
+  display: flex;
+  align-items: center;
+}
+
