@@ -1,0 +1,53 @@
+.circle-label {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #000;
+  color: black;
+  text-align: center;
+  font: 15px Arial, sans-serif;
+}
+
+.circle.current-circle {
+  color: white;
+  background-color: green;
+  border: 3px solid #000;
+}
+
+.circle.open {
+  color: black;
+  background-color: rgb(250, 250, 250);
+}
+
+.circle.closed {
+  color: white;
+  background-color: green;
+}
+
+.processflow-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.processflow-item-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
+  margin: 5px;
+}
+
+.processflow-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
