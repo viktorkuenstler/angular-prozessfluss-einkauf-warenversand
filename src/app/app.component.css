@@ -4,39 +4,41 @@
   background-color: #2196f3;
   padding: 10px;
 }
-.grid-item {
+.circle-label {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 .circle {
   border-radius: 50%;
-  width: 34px;
-  height: 34px;
+  width: 15px;
+  height: 15px;
   padding: 10px;
   background: #fff;
   border: 3px solid #000;
   color: #000;
   text-align: center;
-  font: 32px Arial, sans-serif;
+  font: 15px Arial, sans-serif;
 }
 
-.divided {
+.processflow-container {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
-.divider {
+.processflow-item-divider {
   flex-grow: 1;
   border-bottom: 1px solid black;
   margin: 5px;
 }
 
-.myItemContainer {
+.processflow-item {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
-
